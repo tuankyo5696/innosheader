@@ -1,0 +1,13 @@
+.coverDropdown1 {
+    &.in-view{
+       animation: animWrapper .3s ease-in-out;
+       -webkit-animation: animWrapper .3s ease-in-out;
+    }
+    .dropdown-content{
+        &.in-view{
+          animation:  animContainer .5s ease-in-out;
+       
+}
+    }
+  
+}
